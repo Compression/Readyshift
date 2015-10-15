@@ -1,0 +1,110 @@
+@font-face { font-family: Refrigerator; src: url('RefrigeratorDeluxe.otf'); } 
+
+html { 
+  background: url("Photo-Carpentry-Tools-Wood-Planks-Collage-21.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+body{
+  margin: 0;
+}
+#wrap {
+  width: 100%
+  margin: 0 auto;
+}
+#left {
+  float: left;
+  width: 50%;
+  position: center;
+  text-align: center;
+}
+#right {
+  float: right;
+  width: 50%;
+  position: center;
+  text-align: center;
+}
+#headersub{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Refrigerator;
+  font-weight: 800;
+  color: red;
+  background-color: black;
+  opacity: 0.75;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+header {
+	text-align: center;
+	font-family: Refrigerator;
+	font-weight: 800;
+	font-size: 5em;
+	color: red;
+	background-color: black;
+  opacity: 0.75;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0.5em;
+  padding:0.5em;
+  text-align:center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  opacity: 0.75;
+  margin:0.5em;
+  padding:0.5em;
+}
+#nav li{
+    display:inline;
+}
+nav a {
+    font-family: Refrigerator;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    background-color: black;
+    text-align: center;
+    padding: 4px;
+}
+
+nav a:hover, a:active {
+    background-color: red;
+    color: black;
+}
+
+nav a:a
+/*if you need buttons, use these, doofus.*/
+/*.btn {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #9c0b0b);
+  background-image: -moz-linear-gradient(top, #ff0000, #9c0b0b);
+  background-image: -ms-linear-gradient(top, #ff0000, #9c0b0b);
+  background-image: -o-linear-gradient(top, #ff0000, #9c0b0b);
+  background-image: linear-gradient(to bottom, #ff0000, #9c0b0b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Refrigerator;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff0000;
+  text-decoration: none;
+}*/
